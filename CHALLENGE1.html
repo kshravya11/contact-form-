@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms Challenge</title>
+    <style>
+        body{
+            margin:0px 300px 0px;
+            font-family:Arial, Helvetica, sans-serif ;
+        }
+        div.container{
+            background-color: rgb(244, 242, 242);
+        }
+        .head{
+            background-color: rgb(173, 215, 134);
+            padding: 25px;
+            color:white;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+        }
+        h1{
+            margin:0;
+        }
+        .body{
+            padding:25px 30px;
+        }
+        input[type="text"],input[type="email"],textarea{
+            width:97%;
+            padding:5px;
+        }
+        input[type="button"]{
+            width:100px;
+            padding:10px;
+            background-color: rgb(64, 122, 64);
+            color: white;
+            border-radius: 4px;
+            font-size: 20px;
+            border:1px solid rgba(64, 122, 64, 0.712);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="" method="get">
+        <div class="head">
+
+        <h1>Contact Form</h1>
+        Please fill all the texts in the fields.</div>
+        <div class="body">
+        <p>
+            Your Name:<br>
+            <input type="text" placeholder="Your Full Nmae" id="name">
+        </p>
+        <p>
+            Your Email:<br>
+            <input type="email" placeholder="Vaild Email Address">
+        </p>
+        <p>
+            Message:<br>
+            <textarea placeholder="Your Message to Us" cols="70" rows="15"></textarea>
+        </p>
+        <p>
+            Subject:<br>
+            <input type="text" placeholder="Job Inquiry">
+        </p>
+        <p><input type="button" Value="Send">
+        </p></div>
+    </form>
+    </div>
+
+    
+</body>
+</html>
